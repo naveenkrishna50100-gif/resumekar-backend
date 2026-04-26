@@ -9,7 +9,8 @@ app.use(cors({
     'http://localhost:3000',
     'https://resumekar.in',
     'https://www.resumekar.in',
-    'https://*.vercel.app'
+    'https://resumekar-frontend.vercel.app',
+    'https://resumekar.vercel.app'
   ],
   credentials: true
 }));
